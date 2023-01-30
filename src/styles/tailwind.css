@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .tw-my-flex {
+        @apply tw-flex tw-items-center tw-justify-center;
+    }
+}
